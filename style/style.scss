@@ -22,3 +22,41 @@ $very-light-magenta: hsl(289, 100%, 72%);
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
   }
+
+  .container {
+    margin: auto;
+    width: 400px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: $light-grayish-violet;
+    .mobi {
+      background-color: $white;
+      width: 80%;
+      min-height: 90vh;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 25px;
+
+      .mobi-header {
+        width: 90%;
+        height: 65px;
+
+        background-color: $light-magenta;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 25px 25px 5px 5px;
+      }
+      
+      .mobi-autor {
+        display: flex;
+        justify-content: flex-start;
+        .profile-foto img {
+          width: 30%;
+          border-radius: 50%;
+        }
+      }
+    }
+    .content {
+      text-align: center;
+    }
+  }
