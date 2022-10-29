@@ -40,8 +40,34 @@ body {
   width: 30%;
   border-radius: 50%;
 }
+.container .mobi .mobi-autor .autor {
+  font-size: 12px;
+  color: hsl(0deg, 0%, 100%);
+}
 .container .content {
   text-align: center;
+}
+.container .content .main-header {
+  margin-top: 50px;
+}
+.container .content .main-text {
+  margin-top: 30px;
+  line-height: 2;
+  color: hsl(206deg, 6%, 79%);
+  font-size: 15px;
+}
+.container .dog-foto {
+  display: flex;
+  gap: 10px;
+}
+.container .dog-foto .foto {
+  width: 50px;
+  border-radius: 10px;
+}
+.container .message {
+  width: 45%;
+  margin: 20px;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
