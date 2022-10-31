@@ -34,13 +34,13 @@ body {
 }
 .container .mobi .mobi-autor {
   display: flex;
-  justify-content: flex-start;
 }
 .container .mobi .mobi-autor .profile-foto img {
-  width: 30%;
+  width: 15%;
   border-radius: 50%;
 }
 .container .mobi .mobi-autor .autor {
+  display: flex;
   font-size: 12px;
   color: hsl(0deg, 0%, 100%);
 }
@@ -66,8 +66,11 @@ body {
 }
 .container .message {
   width: 45%;
-  margin: 20px;
+  margin: 10px;
   font-size: 10px;
+  background-color: hsl(270deg, 20%, 96%);
+  border-radius: 10px 10px 10px 5px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

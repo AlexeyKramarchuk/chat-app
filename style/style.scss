@@ -40,7 +40,6 @@ $very-light-magenta: hsl(289, 100%, 72%);
       .mobi-header {
         width: 90%;
         height: 65px;
-
         background-color: $light-magenta;
         margin: 0 auto;
         padding: 10px;
@@ -49,18 +48,20 @@ $very-light-magenta: hsl(289, 100%, 72%);
       
       .mobi-autor {
         display: flex;
-        justify-content: flex-start;
         .profile-foto img {
-          width: 30%;
+          width: 15%;
           border-radius: 50%;
         }
         .autor {
+          display: flex;
+          
           font-size: 12px;
           color: $white;
           
         }
       }
     }
+
     .content {
       text-align: center;
       .main-header {
@@ -83,8 +84,12 @@ $very-light-magenta: hsl(289, 100%, 72%);
     }
     .message {
       width: 45%;
-      margin: 20px;
+      margin: 10px;
       font-size: 10px;
+      background-color: $light-grayish-violet;
+      border-radius:  10px 10px 10px 5px;
+      padding: 10px;
     }
+    
     
   }
